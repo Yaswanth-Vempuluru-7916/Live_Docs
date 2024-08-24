@@ -4,7 +4,7 @@ import React from 'react'
 const Loader = () => {
   return (
     <div className='loader'>
-      <Image src="/assets/icons/loader.svg" alt="loader" width={32} height={32}
+      <Image src="/assets/icons/loader.svg" alt="loader" width={32} height={32}  priority={true}
       className='animate-spin' />
       Loading...
     </div>

@@ -33,6 +33,8 @@
   .custom-scrollbar::-webkit-scrollbar-thumb:hover {
     background: #7878a3;
   }
+
+
 }
 
 @layer utilities {
@@ -42,7 +44,10 @@
   .text-10-regular {
     @apply text-[10px] font-normal;
   }
-
+  .img {
+    width: auto;
+    height: auto;
+  }
   .gradient-blue {
     @apply bg-gradient-to-t from-blue-500 to-blue-400;
   }
